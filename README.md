@@ -2,6 +2,11 @@
 
 This is a simple Flask application that generates 20 random math questions for addition, subtraction, multiplication, and division, and allows users to validate their answers.
 
+```text
+Author : Orhan Cavus
+Date   : 01.04.2023
+```
+
 ## Installation
 
 1. Clone the repository:
