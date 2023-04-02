@@ -41,9 +41,12 @@ def get_math_questions():
 def validate_answers():
     """Validates a list of answers for a list of questions and returns the results as JSON"""
     data = request.get_json()
+    print(data)
     questions = data["questions"]
     answers = data["answers"]
     result = []
+    print(questions)
+    print(answers)
     for i in range(len(questions)):
         question = questions[i]
         answer = answers[i]

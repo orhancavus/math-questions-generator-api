@@ -183,3 +183,8 @@ Content-Type: application/json
 docker build -t math_questions_app .
 docker run -p 5000:5000 math-questions-generator-api
 ```
+
+
+### Run the tests using pytest in your terminal:
+
+$ pytest
